@@ -2,15 +2,23 @@
 
 This bot shows the weather for the next 5 days at your location.
 
-## Install packages:
+## Install
 
+Install packages
 ```shell
 pip install python-telegram-bot --upgrade
 
 pip install pyowm
+
+pip install -U python-dotenv
 ```
 
-## Usage:
+Copy `.env` and configure it 
+```shell
+cp .env.example .env
+```
+
+## Usage
 ```shell
 python bot.py
 ```
